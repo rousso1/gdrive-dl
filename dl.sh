@@ -11,3 +11,5 @@ if [[ ! -f "$2" ]]; then
 else
     echo "${bold}Finished downloading $2"
 fi
+
+rm "dl.sh"
